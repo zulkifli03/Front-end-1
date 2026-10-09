@@ -1,0 +1,16 @@
+body.responsive-invite { background: #f5f3ea; }
+.invite-layout { display: grid; grid-template-columns: .9fr 1.1fr; max-width: 1000px; overflow: hidden; padding: 0; border: 1px solid #dce7e1; border-radius: 26px; background: white; }
+.invite-art { position: relative; min-height: 540px; overflow: hidden; background: #cce8df; }
+.sun { position: absolute; top: 13%; right: 17%; width: 86px; aspect-ratio: 1; border-radius: 50%; background: #f1c477; }
+.hill { position: absolute; right: -18%; bottom: -10%; left: -18%; height: 54%; border-radius: 50% 50% 0 0; }
+.hill-one { bottom: -15%; background: #6ba58b; transform: rotate(-8deg); }
+.hill-two { bottom: -26%; background: #397664; transform: rotate(7deg); }
+.kite { position: absolute; top: 35%; left: 25%; color: #fff9e9; font-size: 5rem; transform: rotate(45deg); }
+.invite-body { padding: clamp(27px, 5vw, 52px); }
+.invite-body h1 { margin-bottom: 12px; }
+.invite-body dl { display: grid; gap: 12px; margin: 25px 0; }
+.invite-body dl div { display: flex; justify-content: space-between; gap: 14px; padding-bottom: 8px; border-bottom: 1px solid #e3ebe5; }
+.invite-body dt { color: #607174; }
+.invite-body dd { margin: 0; font-weight: 700; text-align: right; }
+.bring-note { margin-top: 22px; padding: 13px; border-radius: 12px; color: #385b50; background: #e3f2eb; }
+@media (max-width: 680px) { .invite-layout { grid-template-columns: 1fr; } .invite-art { min-height: 230px; } .invite-body { padding: 25px; } .invite-body dl div { align-items: flex-start; flex-direction: column; gap: 2px; } .invite-body dd { text-align: left; } }

@@ -1,0 +1,14 @@
+body.responsive-catalog { background: #f2f5ee; }
+.plant-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+.plant-heading h1 { margin: 0; }
+.plant-heading .lead { max-width: 35ch; margin-bottom: 4px; }
+.plant-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.plant-card { display: grid; grid-template-columns: 100px 1fr; align-items: center; gap: 17px; min-width: 0; padding: 16px; border: 1px solid #dce7d8; border-radius: 18px; background: white; }
+.plant-art { display: grid; width: 100px; aspect-ratio: 1; place-items: center; border-radius: 15px; color: #fff; font-size: 3rem; }
+.plant-art--one { background: #e3b75d; }.plant-art--two { background: #6c9a79; }.plant-art--three { background: #95b69a; }.plant-art--four { background: #6f8870; }
+.plant-type { margin: 0 0 5px; color: #397460; font-size: .68rem; font-weight: 800; letter-spacing: .1em; }
+.plant-card h2 { margin: 0 0 6px; font-size: 1.15rem; }
+.plant-card div > p:last-child { margin: 0; color: #607174; font-size: .9rem; }
+.screen-hint { margin-top: 18px; color: #607174; font-size: .88rem; }
+@media (max-width: 760px) { .plant-grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .plant-heading { align-items: flex-start; flex-direction: column; gap: 7px; } .plant-card { grid-template-columns: 72px minmax(0, 1fr); gap: 12px; padding: 12px; } .plant-art { width: 72px; font-size: 2.2rem; } .plant-card h2 { font-size: 1.05rem; } }

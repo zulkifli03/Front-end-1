@@ -1,0 +1,11 @@
+body.recommend-page { background: #f3f3ec; }
+.recommend-page .project { max-width: 980px; }
+.recommend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.recommend-card { overflow: hidden; border: 1px solid #dce7e1; border-radius: 20px; background: white; }
+.recommend-card figure img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.recommend-card figcaption { padding: 0 18px; }
+.card-copy { padding: 18px 22px 24px; }
+.category { margin: 0 0 7px; color: #177569; font-size: .72rem; font-weight: 800; letter-spacing: .12em; }
+.card-copy h2 { margin: 0 0 8px; font-size: 1.5rem; }
+.card-copy p:last-child { margin-bottom: 0; color: #607174; }
+@media (max-width: 680px) { .recommend-grid { grid-template-columns: 1fr; } }

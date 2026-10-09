@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Formulir latihan pendaftaran acara Hari Kreasi dengan validasi bawaan browser.">
+    <title>Formulir Hari Kreasi</title>
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="invite-page">
+    <nav class="course-nav"><a href="../index.html">← Peta proyek</a><span>Hari 8 · Form &amp; Button Style</span></nav>
+    <main class="project signup-layout" id="atas">
+      <section class="signup-intro">
+        <p class="invite-label">SABTU · AULA SEKOLAH</p>
+        <h1>Hari Kreasi</h1>
+        <p class="invite-copy">Daftarkan diri untuk mencoba kegiatan seni, kerajinan, dan pameran karya siswa.</p>
+        <div class="invite-info"><h2>Jadwal singkat</h2><p>10.00 Pembukaan · 10.30 Lokakarya · 12.00 Pameran</p></div>
+      </section>
+      <form class="signup-form" action="terima.html" method="get">
+        <p class="lesson-label">FORM LATIHAN · GUNAKAN DATA PURA-PURA</p>
+        <h2>Formulir pendaftaran</h2>
+        <label for="nama">Nama peserta</label>
+        <input id="nama" name="nama" type="text" autocomplete="off" placeholder="Contoh: Budi Contoh" required>
+        <label for="email">Email latihan</label>
+        <input id="email" name="email" type="email" autocomplete="off" placeholder="budi@example.test" required>
+        <label for="sesi">Pilih kegiatan</label>
+        <select id="sesi" name="sesi" required>
+          <option value="">Pilih salah satu</option>
+          <option value="menggambar">Lokakarya menggambar</option>
+          <option value="kerajinan">Kerajinan kertas</option>
+          <option value="pameran">Tur pameran</option>
+        </select>
+        <label for="alasan">Kegiatan yang ingin dicoba (opsional)</label>
+        <textarea id="alasan" name="alasan" rows="3" placeholder="Tulis jawaban singkat"></textarea>
+        <button class="action action-primary" type="submit">Kirim latihan</button>
+        <p class="form-note">Simulasi saja: tidak ada server yang menyimpan pendaftaran. Data contoh akan terlihat pada alamat halaman berikutnya.</p>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+body.check-page { background: #f2f5ef; }
+.check-page .project { max-width: 980px; }
+.check-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+.check-card { padding: 23px; border: 1px solid #dce7d9; border-radius: 18px; background: white; }
+.check-card:hover { border-color: #87b19b; }
+.step { color: #277460; font-size: .74rem; font-weight: 800; letter-spacing: .12em; }
+.check-card h2 { margin: 10px 0 15px; font-size: 1.3rem; }
+.check-card ul { padding-left: 20px; }
+.check-card li { margin-block: 9px; }
+.check-card li li { margin-block: 4px; color: #607174; font-size: .92rem; }
+@media (max-width: 760px) { .check-grid { grid-template-columns: 1fr; } }

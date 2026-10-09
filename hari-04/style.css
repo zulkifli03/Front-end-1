@@ -1,0 +1,11 @@
+body.profile-page { background: #e8f0eb; }
+.profile-card { max-width: 560px; margin-top: 52px; padding: 38px; border: 2px solid #cbded1; border-radius: 28px; background: #fff; box-shadow: 0 18px 45px #183d3217; }
+.avatar { display: grid; width: 76px; height: 76px; place-items: center; border: 5px solid #fff; border-radius: 50%; color: #fff; background: #28786a; box-shadow: 0 0 0 2px #28786a; font-size: 2rem; font-weight: 800; }
+.profile-label { margin: 24px 0 4px; color: #28786a; font-size: .75rem; font-weight: 800; letter-spacing: .15em; }
+.profile-card h1 { margin: 0; font-size: 2.5rem; }
+.profile-role { color: #607174; }
+.profile-card hr { margin-block: 26px; border: 0; border-top: 1px solid #dce7e1; }
+.profile-card li { margin-block: 8px; }
+.profile-card .button-link { margin-top: 8px; }
+.profile-note { max-width: 560px; margin-top: -32px; color: #607174; }
+@media (max-width: 560px) { .profile-card { padding: 25px; } .profile-card h1 { font-size: 2rem; } }

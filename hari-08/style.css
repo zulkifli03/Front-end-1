@@ -1,0 +1,24 @@
+body.invite-page { background: #fff3e9; }
+.signup-layout { display: grid; grid-template-columns: .85fr 1.15fr; align-items: start; gap: 25px; max-width: 900px; margin-top: 42px; }
+.signup-intro { padding: 18px 5px; }
+.invite-label { color: #a14f32; font-size: .76rem; font-weight: 800; letter-spacing: .15em; }
+.signup-intro h1 { margin: 10px 0; color: #573927; font-size: clamp(3rem, 8vw, 5rem); }
+.invite-copy { max-width: 38ch; color: #765f50; font-size: 1.18rem; }
+.action { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 11px 19px; border: 2px solid #9b4b31; border-radius: 12px; font-weight: 800; text-decoration: none; transition: transform .15s ease, background-color .15s ease; }
+.action:hover { transform: translateY(-2px); }
+.action:focus-visible { outline: 3px solid #1e6660; outline-offset: 3px; }
+.action-primary { color: white; background: #9b4b31; }
+.action-primary:hover { background: #753723; }
+.invite-info { margin-top: 26px; padding: 18px; border-radius: 14px; background: #fff3e9; }
+.invite-info h2 { margin: 0 0 6px; font-size: 1.25rem; }
+.invite-info p { margin: 0; color: #765f50; }
+.signup-form { display: grid; gap: 9px; padding: clamp(22px, 4vw, 34px); border: 1px solid #f1d6c3; border-radius: 22px; background: #fffdf9; box-shadow: 0 20px 55px #75442c14; }
+.signup-form .lesson-label { margin-bottom: 0; }
+.signup-form h2 { margin: 0 0 8px; color: #573927; font-size: 1.65rem; }
+.signup-form label { margin-top: 5px; color: #503e33; font-size: .92rem; font-weight: 700; }
+.signup-form input, .signup-form select, .signup-form textarea { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid #cbb9a9; border-radius: 10px; color: #302a26; background: white; font: inherit; }
+.signup-form textarea { resize: vertical; }
+.signup-form input:focus, .signup-form select:focus, .signup-form textarea:focus { outline: 3px solid #edc49f; border-color: #9b4b31; }
+.signup-form button { justify-self: start; margin-top: 8px; cursor: pointer; font: inherit; }
+.form-note { margin: 5px 0 0; color: #765f50; font-size: .82rem; }
+@media (max-width: 700px) { .signup-layout { grid-template-columns: 1fr; gap: 10px; margin-top: 25px; } .signup-intro { padding: 10px 2px; } }

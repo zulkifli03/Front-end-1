@@ -1,0 +1,9 @@
+body.poster-page { background: #f0c56d; }
+.poster { max-width: 720px; margin-block: 55px; padding: clamp(30px, 7vw, 70px); border: 3px solid #203d3b; border-radius: 8px; background: #fff9e9; box-shadow: 12px 12px 0 #203d3b; }
+.poster-kicker { color: #a34935; font-size: .78rem; font-weight: 800; letter-spacing: .16em; }
+.poster h1 { margin: 16px 0; font-size: clamp(3.4rem, 10vw, 6.4rem); line-height: .96; }
+.poster h1 span { color: #147167; }
+.poster-copy { max-width: 46ch; font-size: 1.15rem; }
+.poster-details { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 28px; }
+.poster-details p { min-width: 190px; padding: 14px 17px; border-left: 4px solid #d87945; background: #f8e8c9; }
+.poster-cta { display: inline-block; margin: 0; padding: 12px 17px; color: white; background: #203d3b; font-weight: 700; }

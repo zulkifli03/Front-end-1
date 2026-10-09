@@ -1,0 +1,18 @@
+body.club-page { background: #f5f4ed; }
+.club-header { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 17px max(20px, calc((100% - 980px) / 2)); border-bottom: 1px solid #dce7e1; background: white; }
+.club-brand { color: #1d3034; font-size: 1.15rem; font-weight: 800; text-decoration: none; }
+.club-header nav { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.club-header nav a { color: #42615b; font-size: .92rem; text-decoration: none; }
+.club-header nav a:hover { text-decoration: underline; }
+.club-main { margin-top: 30px; }
+.club-hero { padding: clamp(25px, 5vw, 45px); border-radius: 22px; background: #e3f2eb; }
+.club-hero h1 { max-width: 700px; }
+.club-columns { display: grid; grid-template-columns: 1.5fr .8fr; gap: 16px; margin-top: 16px; }
+.club-columns article { padding-block: 12px; border-top: 1px solid #dce7e1; }
+.club-columns article h3 { margin: 0 0 5px; font-size: 1.08rem; }
+.club-columns article p { margin: 0; color: #607174; }
+.club-aside { padding: 25px; border-radius: 18px; color: white; background: #245c50; }
+.club-aside h2 { margin-top: 0; }
+.club-footer { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 16px; padding: 20px 24px; border: 1px solid #dce7e1; border-radius: 18px; background: white; }
+.club-footer p { margin: 0; font-weight: 700; }
+@media (max-width: 640px) { .club-header { align-items: flex-start; flex-direction: column; } .club-columns { grid-template-columns: 1fr; } .club-footer { align-items: flex-start; flex-direction: column; } }

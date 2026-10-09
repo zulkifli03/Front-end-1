@@ -1,0 +1,11 @@
+body.guide-page { background: #edf4ec; }
+.guide-hero { max-width: 980px; margin-bottom: 20px; padding-bottom: 25px; }
+.guide-hero h1 { max-width: 700px; }
+.jump-menu { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 23px; }
+.jump-menu .button-link { background: #306e52; }
+.jump-menu .button-link:hover { background: #204d39; }
+.guide-content { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 0; }
+.guide-content section:last-child { grid-column: 1 / -1; }
+.guide-content h2 { margin-top: 0; }
+.guide-content li { padding-block: 4px; }
+@media (max-width: 640px) { .guide-content { grid-template-columns: 1fr; } .guide-content section:last-child { grid-column: auto; } }
