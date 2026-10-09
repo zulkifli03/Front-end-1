@@ -1,5 +1,3 @@
-github logout 
-
 @"
 protocol=https
 host=github.com
