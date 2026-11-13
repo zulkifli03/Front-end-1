@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Buat halaman cerita anak dengan tag HTML dan gaya CSS sederhana dalam sesi trial 60 menit.">
+    <title>Petualangan Cerita HTML &amp; CSS — Trial 60 Menit</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="trial.css">
+  </head>
+  <body>
+    <nav class="course-nav"><a href="index.html">← Peta proyek</a><span>Materi trial · 60 menit</span></nav>
+    <main class="project">
+      <header class="trial-hero">
+        <p class="lesson-label">COBA DULU · RAMAH UNTUK PEMULA</p>
+        <h1>Ayo buat cerita ajaibmu sendiri!</h1>
+        <p class="lead">Kita akan membuat halaman cerita tentang seorang anak yang bertemu naga kecil. Kamu cukup mulai dari beberapa tag sederhana, lalu menghias ceritamu dengan sedikit warna.</p>
+        <p class="trial-meta"><strong>60 menit</strong><span aria-hidden="true">·</span> Pelan-pelan, tanpa perlu menghafal</p>
+      </header>
+
+      <section class="trial-panel">
+        <h2>Misi kita</h2>
+        <p>Di akhir sesi, ceritamu akan punya judul, beberapa paragraf, dan warna pilihanmu. Kamu bebas mengganti tokoh, tempat, dan akhir ceritanya.</p>
+        <div class="story-prompt">
+          <span aria-hidden="true">🐉</span>
+          <p><strong>Bayangkan:</strong> seekor naga kecil tersesat di dekat rumahmu. Apa yang akan kamu lakukan?</p>
+        </div>
+        <div class="trial-schedule" aria-label="Rencana sesi 60 menit">
+          <div><strong>5 menit</strong><span>Pilih ide cerita</span></div>
+          <div><strong>10 menit</strong><span>Siapkan folder dan file</span></div>
+          <div><strong>15 menit</strong><span>Buat judul dan awal cerita</span></div>
+          <div><strong>10 menit</strong><span>Lanjutkan petualangan</span></div>
+          <div><strong>15 menit</strong><span>Tambahkan warna sederhana</span></div>
+          <div><strong>5 menit</strong><span>Baca hasil ceritamu</span></div>
+        </div>
+        <p class="small-note">Waktu ini termasuk membaca, mencoba, dan melihat hasilnya. Kalau perlu lebih lama, tidak apa-apa—ini bukan perlombaan.</p>
+      </section>
+
+      <section class="trial-panel">
+        <p class="step-label">MENIT 0–15 · MULAI DARI CERITA</p>
+        <h2>Siapkan file ceritamu</h2>
+        <ol>
+          <li>Buka Notepad atau editor teks yang sudah ada di komputermu.</li>
+          <li>Buat folder bernama <code>cerita-ajaib</code>. Simpan file baru di dalam folder itu dengan nama <code>index.html</code>.</li>
+          <li>Jika memakai Notepad, saat menyimpan pilih <strong>Save as type: All files</strong> agar nama file tidak berubah menjadi <code>index.html.txt</code>.</li>
+        </ol>
+        <p class="small-note">Untuk cerita pertama ini kita fokus pada beberapa tag yang langsung berguna. Bagian tambahan yang belum dibutuhkan bisa dipelajari nanti.</p>
+      </section>
+
+      <section class="trial-panel">
+        <p class="step-label">MENIT 15–30 · JUDUL DAN AWAL CERITA</p>
+        <h2>Kenali beberapa tag saja</h2>
+        <p>Salin contoh ini ke <code>index.html</code>. Kita gunakan kerangka sederhana, lalu isi ceritanya di dalamnya.</p>
+        <pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Nara dan Naga Kecil&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Nara dan Naga Kecil&lt;/h1&gt;
+    &lt;p&gt;Sore itu, Nara mendengar suara kecil dari balik semak.&lt;/p&gt;
+    &lt;p&gt;Seekor naga mungil muncul. Sayapnya berkilau seperti pelangi!&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        <dl class="term-list">
+          <div><dt><code>&lt;html&gt;...&lt;/html&gt;</code></dt><dd>Pembungkus halaman web. Semua bagian halaman berada di dalamnya.</dd></div>
+          <div><dt><code>&lt;head&gt;...&lt;/head&gt;</code></dt><dd>Tempat informasi halaman yang tidak menjadi isi cerita. Untuk sekarang, bagian ini hanya berisi judul tab.</dd></div>
+          <div><dt><code>&lt;title&gt;...&lt;/title&gt;</code></dt><dd>Nama halaman yang muncul di tab browser. Ganti dengan judul ceritamu.</dd></div>
+          <div><dt><code>&lt;body&gt;...&lt;/body&gt;</code></dt><dd>Tempat isi yang terlihat di halaman, seperti judul cerita dan paragraf.</dd></div>
+          <div><dt><code>&lt;h1&gt;...&lt;/h1&gt;</code></dt><dd>Judul utama cerita. Biasanya tampil paling besar.</dd></div>
+          <div><dt><code>&lt;p&gt;...&lt;/p&gt;</code></dt><dd>Satu paragraf, seperti satu atau beberapa kalimat dalam cerita.</dd></div>
+          <div><dt>Tag pembuka dan penutup</dt><dd><code>&lt;p&gt;</code> membuka paragraf, lalu <code>&lt;/p&gt;</code> menutupnya. Teks ceritamu ditulis di antara keduanya. Tag <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, dan <code>&lt;body&gt;</code> juga punya pasangan seperti ini.</dd></div>
+        </dl>
+        <p class="try-now"><strong>Coba sekarang:</strong> simpan file, lalu buka <code>index.html</code> dengan browser. Kamu seharusnya melihat judul dan dua paragraf cerita.</p>
+      </section>
+
+      <section class="trial-panel">
+        <p class="step-label">MENIT 30–40 · LANJUTKAN PETUALANGAN</p>
+        <h2>Apa yang terjadi berikutnya?</h2>
+        <p>Tambahkan dua baris ini di dalam <code>&lt;body&gt;</code>, tepat sebelum <code>&lt;/body&gt;</code>. Tag <code>h2</code> membuat judul bagian yang lebih kecil daripada <code>h1</code>; tag <code>p</code> membuat paragraf baru.</p>
+        <pre><code>&lt;h2&gt;Teman baru&lt;/h2&gt;
+&lt;p&gt;Nara menawarkan bantuan. Naga itu tersenyum dan menunjukkan peta rahasia.&lt;/p&gt;</code></pre>
+        <p>Ubah kalimatnya supaya cocok dengan imajinasimu. Simpan file dan segarkan browser untuk membaca lanjutannya.</p>
+        <div class="tip"><strong>Ide cerita:</strong> ke mana peta itu membawa Nara? Apa nama naga kecilnya? Kamu yang menentukan jawabannya.</div>
+      </section>
+
+      <section class="trial-panel">
+        <p class="step-label">MENIT 40–55 · HIAS DENGAN WARNA</p>
+        <h2>Beri suasana pada ceritamu</h2>
+        <p>Sekarang buat file kedua bernama <code>style.css</code> di folder yang sama. Agar halaman mengenal file gaya ini, tambahkan satu baris berikut di dalam <code>&lt;head&gt;</code>, tepat sebelum <code>&lt;/head&gt;</code>:</p>
+        <pre><code>&lt;link rel="stylesheet" href="style.css"&gt;</code></pre>
+        <p>Baris itu menghubungkan ceritamu dengan file bernama <code>style.css</code>. Sekarang salin dua aturan sederhana ini ke dalam file CSS:</p>
+        <pre><code>body {
+  background-color: lightyellow;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: tomato;
+}</code></pre>
+        <ul class="css-terms">
+          <li><code>body</code> memilih halaman; <code>h1</code> memilih judul utama.</li>
+          <li>Di dalam kurung kurawal <code>{ }</code>, tulis gaya yang ingin diubah.</li>
+          <li><code>background-color</code> mengubah warna halaman; <code>color</code> mengubah warna tulisan.</li>
+        </ul>
+        <p>Simpan kedua file dan segarkan browser. Coba ganti <code>lightyellow</code> dengan <code>lightblue</code>, lalu lihat perubahan suasana cerita.</p>
+      </section>
+
+      <section class="trial-panel trial-challenge">
+        <p class="step-label">MENIT 55–60 · PILIH AKHIR CERITAMU</p>
+        <h2>Petualangannya belum selesai!</h2>
+        <p>Pilih satu hal untuk diubah atau ditambahkan. Satu perubahan kecil pun sudah hebat.</p>
+        <ul>
+          <li>Ganti nama tokoh atau naga kecilnya.</li>
+          <li>Tulis akhir cerita dengan satu paragraf baru menggunakan <code>&lt;p&gt;...&lt;/p&gt;</code>.</li>
+          <li>Ubah warna judul dari <code>tomato</code> menjadi <code>royalblue</code> atau warna lain.</li>
+        </ul>
+        <p class="small-note"><strong>Kalau hasilnya belum berubah:</strong> pastikan kedua file berada di folder yang sama, namanya tepat, dan perubahan sudah disimpan sebelum browser disegarkan.</p>
+      </section>
+
+      <section class="trial-panel">
+        <h2>Kamu sudah membuat halaman cerita!</h2>
+        <p>Hari ini kamu memakai judul dan paragraf untuk bercerita, lalu mengubah warna halaman dengan CSS. Kamu tidak perlu menghafal apa pun—di kelas kita akan berlatih lagi dengan proyek yang menyenangkan, satu langkah setiap kali.</p>
+        <p>Kalau ceritamu punya judul sendiri, naga yang unik, dan akhir pilihanmu, berarti halaman itu sudah menjadi milikmu.</p>
+      </section>
+
+      <a class="button-link" href="index.html">Lihat proyek-proyek di kelas</a>
+    </main>
+  </body>
+</html>

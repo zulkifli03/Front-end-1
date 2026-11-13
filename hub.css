@@ -25,6 +25,13 @@ h1 span { color: #9be0c7; }
 .section-heading h2 { margin: 0; font-size: 2rem; letter-spacing: -.04em; }
 .section-heading > p { margin: 0 0 5px; color: var(--muted); }
 .section-heading .eyebrow { color: var(--teal); }
+.trial-invite { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 0 0 24px; padding: 24px 28px; border: 1px solid #b9d8ca; border-radius: 17px; background: var(--mint); }
+.trial-invite .eyebrow { color: var(--teal); }
+.trial-invite h2 { margin: 0 0 5px; font-size: 1.4rem; }
+.trial-invite p:not(.eyebrow) { margin: 0; color: var(--muted); }
+.trial-button { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 10px; min-height: 46px; padding: 10px 18px; border-radius: 999px; color: white; background: var(--teal); font-weight: 700; text-decoration: none; }
+.trial-button:hover { background: #0e5149; }
+.trial-button:focus-visible { outline: 3px solid #d68748; outline-offset: 3px; }
 .lesson-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 15px; }
 .lesson-card { display: flex; min-height: 218px; flex-direction: column; padding: 20px; border: 1px solid var(--line); border-radius: 17px; color: inherit; background: white; text-decoration: none; transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease; }
 .lesson-card:hover { transform: translateY(-3px); border-color: #8abca9; box-shadow: 0 10px 24px #183c4312; }
@@ -40,6 +47,7 @@ footer p { margin: 0; }
   .hero { padding-block: 42px; }
   .course { width: min(100% - 28px, 480px); margin-block: 34px; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 6px; }
+  .trial-invite { align-items: flex-start; flex-direction: column; padding: 22px; }
   .lesson-grid { grid-template-columns: 1fr; }
   .lesson-card { min-height: 190px; }
 }
